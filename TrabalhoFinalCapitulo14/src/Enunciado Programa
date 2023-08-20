@@ -1,0 +1,23 @@
+        Fazer um programa para ler os dados de N contribuintes, sendo este valor fornecido pelo usuário, os quais podem
+ser pessoa física ou pessoa jurídica, e depois mostrar o valor do imposto pago por cada um, bem como o total de
+impostos arrecadado.
+
+        Os dados de pessoas físicas são: nome, renda anual e gastos com saúde. Os dados de pessoa jurídica são: nome,
+renda anual e número de funcionários. As regras para o cálculo de imposto são as seguintes:
+
+        Pessoa física: Pessoas cuja renda for abaixo de 20.000,00 pagam 15% de imposto. Pessoas com renda de 20.000,00
+em diante paga 25% de imposto. Se a pessoa teve gastos com saúde, 50% destes gastos são abatidos do imposto.
+
+        Exemplo: Uma pessoa cuja a renda for de 50.000,00 e teve 2.000,00 em gastos com saúde, o imposto fica:
+X = (50.000,00 * 25%) - (2000 * 50%)
+X = 12.500,00 - 1.000,00
+X = 11.500,00
+
+        Pessoa jurídica: Pessoas jurídicas pagam 16% de impostos. Porem, se a empresa possuir mais de 10 funcionários,
+ela paga 14% de imposto.
+
+        Exemplo: Uma empresa cuja renda foi de 40.000,00 e possui 25 funcionários, o imposto fica:
+
+X = 400.000,00 * 0.14
+X = 56.000,00
+
